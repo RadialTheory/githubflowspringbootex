@@ -45,7 +45,10 @@ jobs:
         with:
           images: radialtheory/githubflowspringbootex
           tags: |
-            type=edge
+            # minimal (short sha)
+            type=sha
+            # full length sha
+            type=sha,format=long
       - name: Login to DockerHub
         # if: github.event_name != 'pull_request'
         uses: docker/login-action@v2
