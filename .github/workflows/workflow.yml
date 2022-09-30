@@ -22,5 +22,6 @@ jobs:
       - name: Publish Test Reports        
         uses: dorny/test-reporter@v1
         with:
+          name: Publish Test Reports                                      # Name of the check run which will be created
           path: ./build/test-results/test/TEST-*.xml                      # Path to test results (inside artifact .zip)
           reporter: java-junit                                            # Format of test results        
