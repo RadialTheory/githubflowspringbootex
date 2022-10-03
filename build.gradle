@@ -15,12 +15,6 @@ repositories {
 
 
 sonarqube {
-    properties {
-        // Insert other SonarQube properties here
-        property 'sonar.projectKey', 'RadialTheory_githubflowspringbootex'
-        property "sonar.organization", "radialtheory-fin3"
-        property "sonar.host.url", "https://sonarcloud.io"
-    }
 }
 
 
