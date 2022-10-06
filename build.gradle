@@ -3,9 +3,10 @@ plugins {
 	id 'io.spring.dependency-management' version '1.0.14.RELEASE'
 	id 'java'
 	id "org.sonarqube" version "3.4.0.2513"
+	id 'jacoco'
 }
 
-group = 'com.example'
+group = 'com.radialtheory'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '17'
 
