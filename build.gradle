@@ -18,6 +18,11 @@ repositories {
 sonarqube {
 }
 
+jacocoTestReport {
+	reports {
+		xml.required = true
+	}
+}
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter'
